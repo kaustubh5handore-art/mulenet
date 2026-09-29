@@ -1,0 +1,30 @@
+{
+  "source": "synthetic fallback (no PaySim CSV found)",
+  "n_accounts": 5025,
+  "n_mules": 1019,
+  "n_rings": 200,
+  "single_bank_xgb": {
+    "pr_auc": 0.6202,
+    "recall_at_precision_0.5": 0.3629,
+    "fp_per_1000": 13.99,
+    "ring_recall": 0.4615,
+    "rings_evaluated": 91,
+    "threshold": 0.8303
+  },
+  "single_bank_gnn": {
+    "pr_auc": 0.971,
+    "recall_at_precision_0.5": 1.0,
+    "fp_per_1000": 433.57,
+    "ring_recall": 1.0,
+    "rings_evaluated": 91,
+    "threshold": 0.001
+  },
+  "federated_gnn": {
+    "pr_auc": 0.881,
+    "recall_at_precision_0.5": 0.9812,
+    "fp_per_1000": 342.65,
+    "ring_recall": 0.9888,
+    "rings_evaluated": 178,
+    "threshold": 0.0846
+  }
+}

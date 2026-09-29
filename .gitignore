@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# renders and logs (regenerable)
+render*/
+flower_log.txt
+
+# datasets: PaySim comes from Kaggle and must not be committed
+data/*.csv
+
+# superseded deck versions (v6 is the current one)
+build_mulenet_deck.py
+build_mulenet_v[1-5].py
+MuleNet_Citi_NPCI_Hackathon.pptx
+MuleNet_v[1-5].pptx
+
+# tool state (do not commit)
+.mimosa/
+prototype/.mimosa/
+.zcode/
+~$*.pptx
